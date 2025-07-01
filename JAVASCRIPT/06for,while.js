@@ -42,8 +42,8 @@ console.log(sum); */
 } */
 
 // 문제 3.1부터 50까지 369결과를 프린트하자.
-/* for (let i = 1; i <= 50; i++) {
-  let stringValue = i.toString(); // 숫자 타입을 string 타입으로 바꾸는 함수
+for (let i = 1; i <= 50; i++) {
+  let stringValue = i.toString(); // 숫자 타입을 string 타입으로 바꾸는 함수 (39: 3이랑 9로 따로 인식 (문자로 인식)))
   let result = "";
   for (let j = 0; j < stringValue.length; j++) {
     if (
@@ -55,10 +55,10 @@ console.log(sum); */
     }
   }
   console.log(result.length > 0 ? result : i);
-} */
+}
 
 // 문제 4.주어진 숫자가 소수이면 true 아니면 false를 출력하는 프로그램을 짜시오.
-let n = 11;
+/* let n = 11;
 let isPrime = true;
 
 if (n === 1) {
@@ -69,6 +69,7 @@ if (n === 1) {
       isPrime = false;
     }
   }
-}
+} 
 
 console.log(isPrime);
+*/
