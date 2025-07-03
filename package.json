@@ -1,8 +1,10 @@
 {
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "@tailwindcss/cli": "^4.1.11",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^4.1.11"
   },
   "scripts": {
-    "start": "live-server src --port=8080 --host=localhost --no-browser"
+    "start": "live-server . --port=8080 --host=localhost --no-browser"
   }
 }

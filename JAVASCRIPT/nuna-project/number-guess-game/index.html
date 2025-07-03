@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <h1>숫자 맞추기 게임</h1>
+  <body class="bg-[url('./assets/img/b1.png')]">
+    <h1 class="flex justify-center my-50 text-black">숫자 맞추기 게임</h1>
     <div id="result-area">결과가 나온다</div>
     <div id="chance-area">남은 찬스:5번</div>
     <input type="number" id="user-input" />
