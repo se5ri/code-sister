@@ -7,13 +7,41 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-[url('./assets/img/b1.png')]">
-    <h1 class="flex justify-center my-50 text-black">숫자 맞추기 게임</h1>
-    <div id="result-area">결과가 나온다</div>
-    <div id="chance-area">남은 찬스:5번</div>
-    <input type="number" id="user-input" />
-    <button id="play-button">GO!</button>
-    <button id="reset-button">reset</button>
+  <body
+    class="bg-[url('./assets/img/b1.png')] bg-center bg-cover bg-no-repeat h-screen"
+  >
+    <h1
+      class="flex justify-center mt-70 text-black text-5xl font-extrabold text-center"
+    >
+      숫자 맞추기 게임
+    </h1>
+    <div
+      id="result-area"
+      class="text-blue-500 flex justify-center mt-6 text-center text-[40px] font-bold"
+    >
+      결과 공개!
+    </div>
+    <div
+      id="chance-area"
+      class="flex justify-center mt-4 text-center text-black text-[40px] font-medium"
+    >
+      남은 찬스:5번
+    </div>
+    <main class="flex justify-center items-center gap-8 mt-8">
+      <input type="number" id="user-input" class="bg-white border w-60 h-10" />
+      <section class="flex gap-3">
+        <div
+          class="flex justify-center items-center w-[60px] h-[60px] rounded-full bg-green-500 hover:bg-green-600 transition"
+        >
+          <button id="play-button" class="text-white">GO!</button>
+        </div>
+        <div
+          class="flex justify-center items-center w-[60px] h-[60px] rounded-full bg-red-400 hover:bg-red-500 transition"
+        >
+          <button id="reset-button" class="text-white">reset</button>
+        </div>
+      </section>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>
