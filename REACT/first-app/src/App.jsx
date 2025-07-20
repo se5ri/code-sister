@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <>아싸</>;
+  return 헤;
 }
 
 export default App;
