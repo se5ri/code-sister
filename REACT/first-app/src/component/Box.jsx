@@ -1,10 +1,10 @@
 import React from "react";
 
 const Box = (props) => {
-  console.log("props:", props);
+  console.log(props);
   return (
     <div className="box">
-      box{props.num}
+      Box{props.num}
       <p>{props.name}</p>
     </div>
   );

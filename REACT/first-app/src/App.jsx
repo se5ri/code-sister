@@ -1,7 +1,17 @@
 import "./App.css";
-import { useState } from "react";
+import Box from "./component/Box";
 
 function App() {
+  return (
+    <>
+      <Box name="리사" num="1" />
+      <Box name="제니" num="2" />
+      <Box name="지수" num="3" />
+    </>
+  );
+}
+
+/* function App() {
   let counter = 0;
   const [counter2, setCounter2] = useState(0);
   const increase = () => {
@@ -27,6 +37,6 @@ function App() {
       <button onClick={increase}>클릭</button>
     </>
   );
-}
+} */
 
 export default App;
